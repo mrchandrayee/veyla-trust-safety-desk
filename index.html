@@ -1,0 +1,22 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Veyla — Trust & Safety Desk</title><link rel="stylesheet" href="style.css"></head><body>
+<div class="app">
+<aside class="sidebar" id="sidebar"><div class="brand"><div class="brand-mark">◈</div><div><b>Veyla</b><small>Northwick Mutual</small></div><button id="collapse">▣</button></div>
+<div class="search"><span>⌕</span><input id="sideSearch" placeholder="Search checks…"><kbd>⌘K</kbd></div>
+<div class="nav-label">DESK</div><nav>
+<button class="nav active" data-page="Overview"><span>▦</span>Overview</button>
+<button class="nav" data-page="Checks"><span>◷</span>Checks <i>23</i></button>
+<button class="nav" data-page="Inbox"><span>▤</span>Inbox <i>2</i></button>
+<button class="nav" data-page="Sign-ins"><span>↗</span>Sign-ins <i>2</i></button></nav>
+<div class="nav-label">CONTROLS</div><nav>
+<button class="nav" data-page="Protection"><span>⬡</span>Protection <b>›</b></button>
+<button class="nav" data-page="Sources"><span>◉</span>Sources <b>›</b></button>
+<button class="nav" data-page="Team"><span>♧</span>Team <b>›</b></button>
+<button class="nav" data-page="Reports"><span>▥</span>Reports</button></nav>
+<div class="side-spacer"></div><nav class="bottom-nav"><button class="nav" data-page="Settings"><span>⚙</span>Settings <b>›</b></button><button class="nav" data-page="Help"><span>ⓘ</span>Help <b>›</b></button></nav>
+<div class="queue"><div class="queue-icon">▣</div><div><b>23</b><small>in queue</small></div><div class="queue-dots">••••••</div></div>
+<div class="user"><div class="avatar">IO</div><div><b>Ines Okafor</b><small>Lead · Leeds</small></div><span>⌄</span></div>
+</aside>
+<main class="main"><header class="topbar"><div class="crumb">Trust & Safety desk <span>›</span> <b id="crumb">Overview</b></div><div class="top-actions"><span class="all-checks"><i></i>All checks running</span><button class="round" title="Activity">◷</button><button class="round notify" title="Notifications">♧<i></i></button><button class="user-chip"><span class="avatar">IO</span>Ines Okafor</button><button class="new-btn" id="newBtn">＋ New</button></div></header>
+<section id="view"></section></main></div>
+<div class="modal-backdrop hidden" id="modal"><div class="modal"><button class="modal-x" id="modalX">×</button><div id="modalContent"></div></div></div><div class="toast" id="toast"></div>
+<script src="app.js"></script></body></html>
